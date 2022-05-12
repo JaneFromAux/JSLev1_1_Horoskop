@@ -1,0 +1,27 @@
+h2 {
+    color: crimson;
+}
+
+input {
+    width: 98%;
+}
+
+input:nth-of-type(2) {
+    background: lightblue;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 100%;
+}
+
+form {
+    width: 30vw;
+    margin: 20vw auto 5vh auto;
+}
+
+div {
+    margin: 0 auto;
+    width: 25vw;
+    padding: 5vh 5vw;
+    box-shadow: 0 0 20px black;
+    text-align: center;
+}
