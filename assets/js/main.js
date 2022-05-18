@@ -67,7 +67,9 @@ function showHoroskop() {
             pOut.innerHTML = "Communication is very important today—written, spoken, and even nonverbal body language will all…";
             break;
         default:
-            hOut.innerHTML = "Pleaase give a month";
+            hOut.innerHTML = "Please give a month";
+            pOut.innerHTML = "";
+            imgOut.setAttribute("src", "");
 
     }
 }
